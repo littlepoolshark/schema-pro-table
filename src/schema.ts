@@ -67,13 +67,13 @@ export default {
     {
       title: "涉及风险/总门店数",
       hideInSearch: true,
-      cellRenderer: "TotalRisk",
+      // cellRenderer: "TotalRisk",
       width: 100,
     },
     {
       title: "待处理/总待办数",
       hideInSearch: true,
-      cellRenderer: "TotalProcessing",
+      // cellRenderer: "TotalProcessing",
       width: 100,
     },
     {
@@ -90,20 +90,20 @@ export default {
       hideInSearch: true,
       width: 100,
     },
-    {
-      title: "操作",
-      dataIndex: "__action__",
-      valueType: "option",
-      width: 80,
-      actions: [
-        {
-          key: "ViewOrder",
-          nameRenderer: "ViewOrder",
-        },
-      ],
-    },
+    // {
+    //   title: "操作",
+    //   dataIndex: "__action__",
+    //   valueType: "option",
+    //   width: 80,
+    //   actions: [
+    //     // {
+    //     //   key: "ViewOrder",
+    //     //   nameRenderer: "ViewOrder",
+    //     // },
+    //   ],
+    // },
   ],
-  toolBarActions: ["AddAttache"],
+  // toolBarActions: ["AddAttache"],
   tableSetting: {
     pageSize: 10,
     title: "待办管理列表",

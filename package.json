@@ -12,6 +12,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
     "@ant-design/pro-components": "^2.7.16",
+    "@types/json-logic-js": "^2.0.7",
     "@types/lodash": "^4.17.7",
     "antd": "^5.20.6",
     "json-logic-js": "^2.0.5",
